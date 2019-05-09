@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/a_send_app"
+        android:title="发送app给好友"/>
+	
+	<item
+        android:id="@+id/a_create_assets"
+        android:title="创建assets目录"/>
+	<item
+        android:id="@+id/a_dao_assets"
+        android:title="导入文件到assets目录"/>
+	<item
+        android:id="@+id/a_changeicon"
+        android:title="更换图标"/>
+	
+	<item
+        android:id="@+id/a_del"
+        android:title="删除项目"/>
+
+	<item
+        android:id="@+id/a_clone"
+        android:title="克隆项目"/>
+		<item
+        android:id="@+id/a_size"
+        android:title="详细属性"/>
+
+	
+	<item
+        android:id="@+id/a_pack"
+        android:title="打包项目"/>
+
+	<item
+        android:id="@+id/a_share_project"
+        android:title="分享项目给好友"/>
+
+	
+	
+	
+</menu>

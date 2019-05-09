@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/j_del"
+        android:title="删除项目"/>
+    
+	<item
+        android:id="@+id/j_clone"
+        android:title="克隆项目"/>
+	<item
+        android:id="@+id/j_size"
+        android:title="详细属性"/>
+	
+	<item
+        android:id="@+id/j_pack"
+        android:title="打包项目"/>
+    
+	<item
+        android:id="@+id/j_share_project"
+        android:title="分享项目给好友"/>
+    
+	
+	
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@android:style/Theme.Material.Dialog.Alert">
+	  <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+	  <item name="android:popupMenuStyle">@style/popmenuStyle</item>
+	  <item name="android:dropDownListViewStyle">@style/popmenuDivier</item>
+	  <item name="android:textAppearanceSmallPopupMenu">@style/popmeuText</item>
+	  <item name="android:textAppearanceLargePopupMenu">@style/popmeuText</item>
+	  
+	  
+	  <item name="android:colorPrimary">#3F51B5</item>
+		<item name="android:colorPrimaryDark">#303F9F</item>
+		
+		<item name="android:colorAccent">#FF4081</item> 
+	<!--	按钮颜色<item name="android:colorButtonNormal">#ff009688</item>
+		-->
+		</style>
+		
+	<style name="popmenuStyle" parent="@android:style/Widget.Material.PopupMenu">
+        <item name="android:popupBackground">#ffffff</item><!-- popMenu的背景色-->
+    </style>
+
+    <style name="popmeuText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--popMenu分割线的颜色-->
+    <style name="popmenuDivier">
+        <item name="android:divider">#ffffff</item>
+        <item name="android:dividerHeight">2sp</item>
+    </style>
+		
+	
+	
+	<style name="AppTheme2" parent="@android:style/Theme.Material">
+		
+
+		<item name="android:colorPrimary">#3F51B5</item>
+		<item name="android:colorPrimaryDark">#303F9F</item>
+
+		<item name="android:colorAccent">#FF4081</item> 
+		<!--	按钮颜色<item name="android:colorButtonNormal">#ff009688</item>
+		-->
+	</style>
+
+	
+	
+</resources>

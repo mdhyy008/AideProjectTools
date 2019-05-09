@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="设置"
+    
+>
+
+
+	<PreferenceCategory android:title="基本">
+		<PreferenceScreen android:title="导入项目"
+			android:key="daoproject"
+			android:summary="可以导入完整的项目压缩包到项目目录"	>
+		</PreferenceScreen>
+		
+		<PreferenceScreen android:title="清除缓存"
+			android:key="delcache"
+			android:summary="删除所有打包的缓存"	>
+		</PreferenceScreen>
+	</PreferenceCategory>
+
+	
+	
+	<PreferenceCategory android:title="其他">
+		<SwitchPreference android:key="addVerName"
+			android:title="在末尾加版本号"
+			android:summary="在把APP发送给好友时，是否重命名加入版本号"/>
+		
+		
+		<EditTextPreference android:key="text"
+			android:title="图标默认文件名"
+			android:summary="请在使用本功能之前，保证你的drawable或者mipmap是单一存在的，没有其他分辨率的适配"
+			android:dialogTitle="文件名"
+			android:defaultValue="ic_launcher.png"
+			/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="程序信息" >
+
+		<Preference
+			android:key="appVersion"
+			android:title="appVersion"
+			android:summary="null" />
+		<Preference
+			android:key="about"
+			android:title="开发相关"
+			android:summary="APP详细信息开源地址" />
+	</PreferenceCategory>
+</PreferenceScreen>
